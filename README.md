@@ -1,4 +1,5 @@
 # What is SugarGo
+<img src="./resource/sugargo.png" alt="sugargo" width="80"/>
 
 SugarGo is a suite of golang packages, base on SugarGo,you can write go code easily,graceful, and quickly.
 
