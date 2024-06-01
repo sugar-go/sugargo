@@ -7,21 +7,14 @@ SugarGo is a suite of golang packages, base on SugarGo,you can write go code eas
 ## Mannually
 
 ```shell
-wget github.com/sugar-go/sugargo/release/v0.0.1.zip
-unzip v0.0.1.zip
-cd sugargo
-bash ./install.sh
+#install gmodeltool
+go install github.com/lingdor/gmodeltool@latest
+#get base codes
+curl -O https://raw.githubusercontent.com/sugar-go/sugargo/main/demo.tgz
+tar zxvf demo.tgz
 ```
 
 # Automatically
 ```shell 
-curl ｜bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/sugar-go/sugargo/main/init.sh)"
 ```
-
-# Version
-
-|     version      | Description                                             |
-| ---------------- |---------------------------------------------------------|
-|  gin-suite       | a suite of gin, gmodel, margicarray, spannerlib in one  |
-|  console-suite   | a suite of console application                          |
-
