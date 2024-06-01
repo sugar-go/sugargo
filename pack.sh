@@ -1,3 +1,6 @@
 #!/bin/bash
 
-tar -czvf demo.tgz demo/*
+cd demo
+tar -czvf demo.tgz ./*
+mv demo.tgz ../
+cd ../

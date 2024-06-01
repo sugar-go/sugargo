@@ -1,0 +1,7 @@
+gmodel:
+  verbose: true
+  connection:
+    default:
+      dsn: mysql://root:root@2024@tcp(localhost:3306)/db1
+    write:
+      dsn: mysql://root:root@2024@tcp(localhost:3306)/db2
